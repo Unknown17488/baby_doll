@@ -1,0 +1,10 @@
+apk add git
+apk add python3
+apk add py3-pip
+apk add ruby
+git install toilet
+git clone https://github.com/Baby_doll./baby.git
+cd baby
+pip3 install -r requirements.txt
+chmod +x baby.sh
+./baby.sh
